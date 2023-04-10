@@ -19,10 +19,10 @@ use super::Vec2;
 #[cfg_attr(feature = "bytemuck", derive(bytemuck::Pod, bytemuck::Zeroable))]
 pub struct Rot2 {
     /// angle.sin()
-    s: f32,
+    pub s: f32,
 
     /// angle.cos()
-    c: f32,
+    pub c: f32,
 }
 
 /// Identity rotation
